@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="50" height="50" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="New_Town_Ex" tilewidth="32" tileheight="32" spacing="1" margin="1">
+  <image source="New_Town_Ex.png" trans="ff00ff" width="544" height="416"/>
+ </tileset>
+ <layer name="Background" width="50" height="50">
+  <data encoding="base64" compression="zlib">
+   eJzt1jPTJVEUhtFvbNu2bdu2bdu2bds2f9qs5CSdTnC7q85btbK98ycvLy5Ny0d+ClCQQhSmCEUpRnFKUJJSlKYMZVPwH1aO8lSgIpWoTBWqUo3q1KAmtahNHeqm4D+sHvVpQEMa0ZgmNKUZzWlBS1rRmja0TcF/WDva04GOdKIzXehKN7rTg570ojd96JuC/7B+9GcAAxnEYIYwlGEMZwQjGcVoxjA2Bf9h4xjPBCYyiclMYSrTmM4MZjKL2cxhbgr+w+YxnwUsZBGLWcJSlrGcFaxkFatZw9oU/IetYz0b2MgmNrOFrWxjOzvYyS52s4e9KfgP28d+DnCQQxzmCEc5xnFOcJJTnOYMZ1PwH3aO81zgIpe4zBWuco3r3OAmt7jNHe6m4D/sHvd5wEMe8ZgnPOUZz3nBS17xmje8TcF/2Dve84GPfOIzX/jKN77zg5/84jd/+JuC/7Bc91Hsq9hXsa9iX8W+in0V+yr2VViu+yj2Veyr2Fexr2Jfxb6KfRX7KizXfRT76v/6Knmf1b5K3me1r5L3We2r5H1W+yp5n9W+St5nta+S91ntq+R9VvsqeZ/VvkreZ7WvkvdZ7avkfVr66h+9t2Ju
+  </data>
+ </layer>
+</map>

@@ -39,11 +39,13 @@ bool HelloWorld::init()
 		//	test code
 		//testButton(visibleSize,origin);
 
-		testDragAndDrop(visibleSize);
+		//testDragAndDrop(visibleSize);
 
-		testLayer();
+		//testLayer();
 
-		testFlipbookAnimations();
+		//testFlipbookAnimations();
+
+		testLoadTitleMapFile();
 	}
 	else
 	{
@@ -342,4 +344,20 @@ void HelloWorld::testFlipbookAnimations()
 			animation->addSpriteFrameWithFileName(szImageFileName);  
 		}
 	}
+}
+
+void HelloWorld::testLoadTitleMapFile()
+{
+	std::string file = "01.tmx"; 
+	if (0)
+	{
+		_tileMap = CCTMXTiledMap::create(file);   
+	}
+	else
+	{
+		auto str = String::createWithContentsOfFile (FileUtils::getInstance()->fullPathForFilename(file.c_str()).c_str());     
+		_tileMap = TMXTiledMap::createWithXML(str->getCString(),"");  
+	}
+	_background = _tileMap->layerNamed("Background");         
+	addChild(_tileMap, -1); 
 }

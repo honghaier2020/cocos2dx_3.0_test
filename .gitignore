@@ -21,5 +21,6 @@
 *.app
 
 *.sdf
+*.opensdf
 cocos2d/
 proj.win32/Debug.win32/

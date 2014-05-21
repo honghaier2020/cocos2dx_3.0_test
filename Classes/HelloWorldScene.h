@@ -41,6 +41,9 @@ public:
 	//	Flipbook Animations
 	void testFlipbookAnimations();
 
+	//	test load title map file
+	void testLoadTitleMapFile();
+
 private:
 
 	//	for button test
@@ -58,6 +61,10 @@ private:
 
 	//	Flipbook Animations
 	cocos2d::Sprite * m_pSprite1;
+
+	//	test load title map file
+	cocos2d::TMXTiledMap *_tileMap;  
+	cocos2d::TMXLayer *_background; 
 
 };
 
