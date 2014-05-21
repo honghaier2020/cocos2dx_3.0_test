@@ -349,7 +349,7 @@ void HelloWorld::testFlipbookAnimations()
 void HelloWorld::testLoadTitleMapFile()
 {
 	std::string file = "01.tmx"; 
-	if (0)
+	if (1)
 	{
 		_tileMap = CCTMXTiledMap::create(file);   
 	}

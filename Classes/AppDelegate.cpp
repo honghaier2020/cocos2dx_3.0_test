@@ -55,5 +55,6 @@ void AppDelegate::setResourceSearchResolution()
 {
 	std::vector<std::string> __search_path;
 	__search_path.push_back("map");
+	__search_path.push_back("image");
 	FileUtils::getInstance()->setSearchResolutionsOrder(__search_path);
 }
